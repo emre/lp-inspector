@@ -13,6 +13,7 @@ import Web3 from "web3";
 import {
   masterChefPresets,
   PANCAKE_ROUTER,
+  CUB_CHEF_ADDRESS,
   routerPresets,
 } from "./utils/constants";
 
@@ -52,7 +53,7 @@ function App() {
           <div className="app-header">
             <div className="app-header-left">
               <FontAwesomeIcon icon={faSearchDollar} className="app-icon" />
-              <h1>How much is my LP worth?</h1>
+              <h1>My CUB LP holdings</h1>
             </div>
             {wa.web3 && (
               <ConnectWallet callback={setAddress}>Connect</ConnectWallet>
@@ -73,6 +74,7 @@ function App() {
                 label="MasterChef address"
                 presets={masterChefPresets}
                 callback={setContractAddress}
+                defaultValue={CUB_CHEF_ADDRESS}
               />
               <AddressInput
                 placeholder="Enter Router address"

@@ -24,7 +24,7 @@ function Donate() {
 
   return (
     <div className="donate-container">
-      <button onClick={donate}>Donate for my panty</button>
+      <button onClick={donate}>Donate to developer</button>
     </div>
   );
 }

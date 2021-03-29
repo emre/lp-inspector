@@ -14,6 +14,8 @@ function Footer({ showDonate }: FooterProps) {
       <p>
         How much is my LP worth? by <b>nopantytonight ✨</b> The source code is
         licensed <b>MIT</b>.
+
+        The code is <a href="https://github.com/emre/lp-inspector">adapted</a> to work with <a href="https://cubdefi.com">CUBdefi</a> by <a href="https://hive.blog/@emrebeyler">@emrebeyler</a>.
       </p>
     </footer>
   );

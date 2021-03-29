@@ -7,7 +7,12 @@ export const ibBNB = "0xd7d069493685a581d27824fc46eda46b7efc0063";
 export const ibBUSD = "0x7c9e73d4c71dae564d41f78d56439bb4ba87592f";
 export const mebBUSD = "0x7e0c621ea9f7afd5b86a50b0942eaee68b04a61c";
 export const mebBNB = "0x639f18c72b6a017bdd209c161d1617c9481a1e4d";
+export const CUB_CHEF_ADDRESS = "0x227e79C83065edB8B954848c46ca50b96CB33E16";
 export const masterChefPresets = [
+  {
+    name: "Cub",
+    address: CUB_CHEF_ADDRESS,
+  },
   {
     name: "-",
     address: "",
@@ -83,7 +88,7 @@ export const masterChefPresets = [
   {
     name: "Sashimi",
     address: "0x34E483600e9c73390C7fBB4C9985a057156a611F",
-  },
+  }
 ];
 
 export const routerPresets = [
