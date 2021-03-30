@@ -88,6 +88,14 @@ export const masterChefPresets = [
   {
     name: "Sashimi",
     address: "0x34E483600e9c73390C7fBB4C9985a057156a611F",
+  },
+  {
+    name: "Space",
+    address: "0xc8cf0767fB2258b23B90636A5e21cfaD113e8182",
+  },
+  {
+    name: "BLZD",
+    address: "0x2078F4A75c92A6918D13e3e2F14183443ebf55D3"
   }
 ];
 
