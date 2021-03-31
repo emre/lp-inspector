@@ -95,7 +95,11 @@ export const masterChefPresets = [
   },
   {
     name: "BLZD",
-    address: "0x2078F4A75c92A6918D13e3e2F14183443ebf55D3"
+    address: "0x2078F4A75c92A6918D13e3e2F14183443ebf55D3",
+  },
+  {
+    name: "COMOS",
+    address: "0xb02713560be2a7fb07b7b16fd75f35d3632fc933",
   }
 ];
 
